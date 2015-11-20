@@ -124,6 +124,7 @@ b.all||[];b.innerHTML="<\!--[if gt IE "+ ++a+"]><i><![endif]--\>",c[0];);return 
   _sift.push(['_setAccount', '{{ beacon_key }}' ]);
   _sift.push(['_setUserId', _user_id]);
   _sift.push(['_setSessionId', _session_id]);
+  _sift.push(['_setTrackerUrl', '{{ beacon_host }}' ]);
   _sift.push(['_trackPageview']);
 
   </script>
